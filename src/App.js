@@ -1,10 +1,15 @@
 import './App.css';
 
+// Boostrap links
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
+import WeatherDashboard from './components/WeatherDashboard';
+
 function App() {
   return (
-    <div className="App">
-     
-    </div>
+    <>
+     <WeatherDashboard />
+    </>
   );
 }
 
